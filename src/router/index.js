@@ -1,16 +1,16 @@
 import { Redirect } from "react-router-dom"
 
-import Discover from "@/pages/discover"
-import Friends from "@/pages/friends"
-import Recommend from "@/pages/discover/child-pages/recommend"
-import Album from "@/pages/discover/child-pages/album"
-import Artist from "@/pages/discover/child-pages/artist"
-import DjRadio from "@/pages/discover/child-pages/dj-radio"
-import Ranking from "@/pages/discover/child-pages/ranking"
-import Songs from "@/pages/discover/child-pages/songs"
-import MyMusic from "@/pages/my-music"
-import Player from '@/pages/player'
-import NotFound from '@/pages/404'
+const Discover = lazy(_ => "@/pages/discover")
+const Friends = lazy(_ => "@/pages/friends")
+const Recommend = lazy(_ => "@/pages/discover/child-pages/recommend")
+const Album = lazy(_ => "@/pages/discover/child-pages/album")
+const Artist = lazy(_ => "@/pages/discover/child-pages/artist")
+const DjRadio = lazy(_ => "@/pages/discover/child-pages/dj-radio")
+const Ranking = lazy(_ => "@/pages/discover/child-pages/ranking")
+const Songs = lazy(_ => "@/pages/discover/child-pages/songs")
+const MyMusic = lazy(_ => "@/pages/my-music")
+const Player = lazy(_ => '@/pages/player')
+const NotFound = lazy(_ => '@/pages/404')
 
 const routes = [
   {
