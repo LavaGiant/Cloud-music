@@ -1,3 +1,4 @@
+import { lazy } from 'react'
 import { Redirect } from "react-router-dom"
 
 const Discover = lazy(_ => "@/pages/discover")
