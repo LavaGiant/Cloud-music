@@ -1,0 +1,1 @@
+export const getRandomCount = count => Math.floor(Math.random() * count)

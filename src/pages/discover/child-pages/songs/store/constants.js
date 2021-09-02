@@ -1,0 +1,1 @@
+export const CHANGE_SONG_LIST = 'songs/CHANGE_TYPE_SONG_LIST'
