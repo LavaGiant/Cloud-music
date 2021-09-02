@@ -1,17 +1,17 @@
 import { lazy } from 'react'
 import { Redirect } from "react-router-dom"
 
-const Discover = lazy(_ => import( "@/pages/discover"))
-const Friends = lazy(_ => import( "@/pages/friends"))
-const Recommend = lazy(_ => import( "@/pages/discover/child-pages/recommend"))
-const Album = lazy(_ => import( "@/pages/discover/child-pages/album"))
-const Artist = lazy(_ => import( "@/pages/discover/child-pages/artist"))
-const DjRadio = lazy(_ => import( "@/pages/discover/child-pages/dj-radio"))
-const Ranking = lazy(_ => import( "@/pages/discover/child-pages/ranking"))
-const Songs = lazy(_ => import( "@/pages/discover/child-pages/songs"))
-const MyMusic = lazy(_ => import( "@/pages/my-music"))
-const Player = lazy(_ => import( '@/pages/player'))
-const NotFound = lazy(_ => import( '@/pages/404'))
+const Discover = lazy(_ => import("@/pages/discover"))
+const Friends = lazy(_ => import("@/pages/friends"))
+const Recommend = lazy(_ => import("@/pages/discover/child-pages/recommend"))
+const Album = lazy(_ => import("@/pages/discover/child-pages/album"))
+const Artist = lazy(_ => import("@/pages/discover/child-pages/artist"))
+const DjRadio = lazy(_ => import("@/pages/discover/child-pages/dj-radio"))
+const Ranking = lazy(_ => import("@/pages/discover/child-pages/ranking"))
+const Songs = lazy(_ => import("@/pages/discover/child-pages/songs"))
+const MyMusic = lazy(_ => import("@/pages/my-music"))
+const Player = lazy(_ => import('@/pages/player'))
+const NotFound = lazy(_ => import('@/pages/404'))
 
 const routes = [
   {
