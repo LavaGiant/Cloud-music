@@ -26,7 +26,7 @@ const TopBanner = memo(() => {
     dispatch(getTopBannerAction())
   }, [dispatch])
 
-  const bannerChange = useCallback((from, to) => {
+  const bannerChange = useCallback((_, to) => {
     setCurrentIndex(to)
   }, [])
 
